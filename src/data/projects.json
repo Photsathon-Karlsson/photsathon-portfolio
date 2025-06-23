@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "UX/UI Dashboard Design",
+    "description": "A modern dashboard with Figma prototype.",
+    "image": "https://via.placeholder.com/400x200"
+  },
+  {
+    "id": 2,
+    "title": "React E-Commerce Site",
+    "description": "An online shop built with React and Firebase.",
+    "image": "https://via.placeholder.com/400x200"
+  },
+  {
+    "id": 3,
+    "title": "Portfolio Website",
+    "description": "My personal portfolio website built with React and Vite.",
+    "image": "https://via.placeholder.com/400x200"
+  }
+]

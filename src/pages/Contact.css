@@ -1,0 +1,74 @@
+.contact {
+  min-height: 100vh;
+  padding: 100px 20px 60px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #e63946;
+}
+
+.contact p {
+  font-size: 1.4rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.contact-icons a {
+  font-size: 2.5rem;
+  color: #e63946;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contact-icons a:hover {
+  transform: scale(1.2);
+  color: #222;
+}
+
+/* Dark mode */
+body.dark-mode .contact {
+  background: #121212;
+}
+
+body.dark-mode .contact p {
+  color: #fff;
+}
+
+body.dark-mode .contact-icons a {
+  color: #ff6b6b;
+}
+
+body.dark-mode .contact-icons a:hover {
+  color: #fff;
+}
+
+.contact-img {
+  width: 200px;      /* กำหนดความกว้างรูป */
+  height: auto;      /* ให้สัดส่วนรูปไม่ผิดเพี้ยน */
+  display: block;    /* ทำให้จัดกึ่งกลางได้ง่าย */
+  margin: 20px auto; /* เว้นระยะบนล่าง 20px และจัดกึ่งกลางแนวนอน */
+}
+
+@media screen and (max-width: 768px) {
+  .contact h2 {
+    font-size: 2rem;
+  }
+
+  .contact p {
+    font-size: 1.1rem;
+  }
+
+  .contact-icons a {
+    font-size: 2rem;
+  }
+}

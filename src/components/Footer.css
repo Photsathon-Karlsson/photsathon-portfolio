@@ -1,0 +1,38 @@
+.footer {
+  background-color: #ff4d4d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.social-icons {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.5rem;
+  transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #ffd6d6;
+}
+
+.footer p {
+  font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+  .social-icons a {
+    font-size: 1.3rem;
+    margin: 0 7px;
+  }
+
+  .footer {
+    padding: 15px;
+  }
+}

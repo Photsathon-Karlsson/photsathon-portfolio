@@ -1,0 +1,79 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #fff, #f9f9f9);
+  padding: 120px 20px 60px 20px;
+  text-align: center;
+}
+
+.home-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.home-content p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.hire-button {
+  background: #e63946;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 8px 16px rgba(230, 57, 70, 0.3);
+}
+
+.hire-button:hover {
+  background: #b71c1c;
+  transform: translateY(-3px);
+}
+
+/* Dark mode */
+body.dark-mode .home {
+  background: #121212;
+}
+
+body.dark-mode .home-content h1 {
+  color: #fff;
+}
+
+body.dark-mode .home-content p {
+  color: #aaa;
+}
+
+/*.home-content img {
+  width: 300px; 
+  height: auto;
+  margin-bottom: 1rem;
+}*/
+
+.profile-video {
+  width: 1000px; 
+  height: auto; 
+  object-fit: cover; /* ตัดส่วนเกินของวิดีโอออก ให้ดูไม่บิดเบี้ยว */
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .home-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .home-content p {
+    font-size: 1.2rem;
+  }
+
+  .hire-button {
+    padding: 12px 30px;
+    font-size: 1rem;
+  }
+}
