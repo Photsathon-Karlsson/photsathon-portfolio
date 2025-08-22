@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import './Lifestyle.css';
+import '../index.css';
 
 const images = [
   'public/img/lifestyle-1.jpg',

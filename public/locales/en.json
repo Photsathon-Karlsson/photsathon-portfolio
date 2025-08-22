@@ -3,14 +3,14 @@
   "about": "About Me",
   "projects": "Projects",
   "educations": "Educations",
-  "work": "Work Experiences",
+  "work": "Work Experience",
   "skills": "Skills",
   "lifestyle": "Lifestyle",
   "contact": "Contact",
   "homeTitle": "Hi, I'm Photsathon",
   "homeSubtitle": "Frontend Developer with experience as a preschool assistant.",
   "aboutContent": "I moved from Thailand to Sweden in 2018. After studying Swedish and working as a preschool assistant, I discovered my passion for Frontend Development. Now, I'm exploring coding and web design, always eager to keep learning.",
-  "educationsList": [
+  "educationList": [
     "2024 - FrontEnd Developer : NBI Handelsakademin Göteborg",
     "2024 - Swedish as a Second Language 2 : Hermods Göteborg",
     "2024 - Programming 1 : Handelsakademin Göteborg",
@@ -41,16 +41,10 @@
     "2004-2005 : Cashier & Waitress - Kiwi Café, Khonkaen, Thailand"
   ],
   "skillsList": [
-    "Frontend: HTML, CSS, JavaScript, React.js, UX/UI, Figma, Pixlr",
-    "Backend: TypeScript, Firebase, Firestore",
-    "Tools & Methods: GitHub, Testing, Agile, Scrum",
-    "Languages: Thai, English, Swedish",
-    "Communication: Skilled in teaching English and Thai to children and immigrants, strong communication and adaptability",
-    "Childcare & Education: 4+ years as Preschool Assistant in Sweden, 7+ years in Thailand, trained in child development, teamwork with parents and educators",
-    "Administration: Scheduling, record-keeping, strong organizational skills",
-    "Customer Service: Cashier, waitress, housekeeper experience, excellent customer service skills",
-    "Other: Animal care experience at Phuket Dogs Resort, tourism and sales experience as guide and seller",
-    "Soft Skills: Creativity, strong willingness to learn, adaptability"
+  "Web Development: HTML, CSS, JavaScript, React.js, TypeScript, Firebase, Firestore, GitHub, Testing, Agile, Scrum",
+  "Design: UX/UI, Figma, Pixlr, Canva",
+  "Languages: Thai, English, Swedish",
+  "Teaching & Childcare: 10+ years as teacher assistant"
 ],
   "lifestyleContent": "Outside of work, I enjoy photography, drawing, crafting, crocheting, traveling, and exploring new tech tools.",
   "hobby1": "Photography",

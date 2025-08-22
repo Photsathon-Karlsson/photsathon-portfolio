@@ -4,7 +4,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
-import Educations from './pages/Educations';
+import Education from './pages/Education';
 import Work from './pages/Work';
 import Skills from './pages/Skills';
 import Lifestyle from './pages/Lifestyle';
@@ -19,7 +19,7 @@ const App = () => {
         <Home />
         <About />
         <Projects />
-        <Educations />
+        <Education />
         <Work />
         <Skills />
         <Lifestyle />

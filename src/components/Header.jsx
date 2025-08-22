@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { FaMoon, FaSun, FaBars } from 'react-icons/fa';
-import './Header.css';
+import '../index.css';
 
 const Header = () => {
   const { t, i18n } = useTranslation();
@@ -16,14 +16,27 @@ const Header = () => {
     setIsDarkMode(!isDarkMode);
   };
 
+  // Switch dark mode
   useEffect(() => {
     document.body.className = isDarkMode ? 'dark-mode' : '';
   }, [isDarkMode]);
 
+  // Function smooth scroll
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      // If it is 'home' or the element does not exist, move to the top.
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    setIsMenuOpen(false); // Close the menu after clicking.
+  };
+
   return (
     <header className="header">
       <div className="left-section">
-        <div className="logo" onClick={() => window.scrollTo(0, 0)}>
+        <div className="logo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
           <img src="public/img/logo.png" alt="Logo" />
           <span>photsathon.com</span>
         </div>
@@ -35,14 +48,14 @@ const Header = () => {
         </div>
 
         <nav className={isMenuOpen ? 'nav open' : 'nav'}>
-          <a href="#home">{t('home')}</a>
-          <a href="#about">{t('about')}</a>
-          <a href="#projects">{t('projects')}</a>
-          <a href="#educations">{t('educations')}</a>
-          <a href="#work">{t('work')}</a>
-          <a href="#skills">{t('skills')}</a>
-          <a href="#lifestyle">{t('lifestyle')}</a>
-          <a href="#contact">{t('contact')}</a>
+          <a onClick={() => scrollToSection('home')}>{t('home')}</a>
+          <a onClick={() => scrollToSection('about')}>{t('about')}</a>
+          <a onClick={() => scrollToSection('projects')}>{t('projects')}</a>
+          <a onClick={() => scrollToSection('education')}>{t('education')}</a>
+          <a onClick={() => scrollToSection('work')}>{t('work')}</a>
+          <a onClick={() => scrollToSection('skills')}>{t('skills')}</a>
+          <a onClick={() => scrollToSection('lifestyle')}>{t('lifestyle')}</a>
+          <a onClick={() => scrollToSection('contact')}>{t('contact')}</a>
         </nav>
       </div>
 

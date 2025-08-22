@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import './Contact.css';
+import '../index.css';
 import { FaFacebook, FaInstagram, FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 
 const Contact = () => {
@@ -15,8 +15,7 @@ const Contact = () => {
   return (
     <section className="contact" id="contact">
       <h2>{t('contact')}</h2>
-      {/* <p>{t('contactText')}</p> */}
-      <img src="/img/me2.png" alt="Me" className="contact-img" />
+      {<img src={`${import.meta.env.BASE_URL}public/img/contact-me.png`} alt="contact-me" />}
 
       <div className="contact-icons">
         <a href="https://www.facebook.com/photsathon.sangsukwaw" target="_blank" rel="noopener noreferrer">
