@@ -10,7 +10,7 @@
   "homeTitle": "Hej, jag heter Photsathon",
   "homeSubtitle": "Frontendutvecklare med erfarenhet som förskoleassistent.",
   "aboutContent": "Jag flyttade från Thailand till Sverige 2018. Efter att ha studerat svenska och arbetat som förskoleassistent upptäckte jag mitt intresse för frontendutveckling. Nu utforskar jag kodning och webbdesign och lär mig ständigt nya saker.",
-  "educationsList": [
+  "educationList": [
     "2024 - FrontEnd Developer : NBI Handelsakademin Göteborg",
     "2024 - Svenska som andraspråk 2 : Hermods Göteborg",
     "2024 - Programmering 1 : Handelsakademin Göteborg",
@@ -41,17 +41,11 @@
     "2004-2005 : Kassörska & Servitris - Kiwi Café, Khonkaen, Thailand"
   ],
   "skillsList": [
-    "Frontend: HTML, CSS, JavaScript, React.js, UX/UI, Figma, Pixlr",
-    "Backend: TypeScript, Firebase, Firestore",
-    "Verktyg & Metoder: GitHub, Testning, Agile, Scrum",
-    "Språk: Thailändska, Engelska, Svenska",
-    "Kommunikation: Erfarenhet av att undervisa engelska och thailändska för barn och invandrare, stark kommunikation och anpassningsförmåga",
-    "Barnomsorg & Utbildning: 4+ år som förskoleassistent i Sverige, 7+ år i Thailand, utbildad i barns utveckling, samarbete med föräldrar och pedagoger",
-    "Administration: Schemaläggning, dokumentation, starka organisatoriska färdigheter",
-    "Kundservice: Erfarenhet som kassörska, servitris och städare, utmärkt kundservice",
-    "Övrigt: Erfarenhet av djurvård på Phuket Dogs Resort, turism- och försäljningserfarenhet som guide och säljare",
-    "Mjuka färdigheter: Kreativitet, stark vilja att lära sig, anpassningsförmåga"
-  ],
+  "Webbutveckling: HTML, CSS, JavaScript, React.js, TypeScript, Firebase, Firestore, GitHub, Testning, Agile, Scrum",
+  "Design: UX/UI, Figma, Pixlr, Canva",
+  "Språk: Thailändska, Engelska, Svenska",
+  "Undervisning & Barnomsorg: 10+ år som lärarassistent"
+],
   "lifestyleContent": "Utanför arbetet tycker jag om att fotografera, rita, pyssla, virka, resa och utforska nya tekniska verktyg.",
   "hobby1": "Fotografering",
   "hobby2": "Teckning",
