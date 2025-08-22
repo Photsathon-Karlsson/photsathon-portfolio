@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import '../index.css';
-
+/*
 const images = [
   'public/img/lifestyle-1.jpg',
   'public/img/lifestyle-2.jpg',
@@ -13,6 +13,19 @@ const images = [
   'public/img/lifestyle-8.png',
   'public/img/lifestyle-9.png',
   'public/img/lifestyle-10.jpg'
+];
+*/
+const images = [
+  `${import.meta.env.BASE_URL}img/lifestyle-1.jpg`,
+  `${import.meta.env.BASE_URL}img/lifestyle-2.jpg`,
+  `${import.meta.env.BASE_URL}img/lifestyle-3.jpg`,
+  `${import.meta.env.BASE_URL}img/lifestyle-4.jpg`,
+  `${import.meta.env.BASE_URL}img/lifestyle-5.jpg`,
+  `${import.meta.env.BASE_URL}img/lifestyle-6.jpg`,
+  `${import.meta.env.BASE_URL}img/lifestyle-7.jpg`,
+  `${import.meta.env.BASE_URL}img/lifestyle-8.png`,
+  `${import.meta.env.BASE_URL}img/lifestyle-9.png`,
+  `${import.meta.env.BASE_URL}img/lifestyle-10.jpg`
 ];
 
 const Lifestyle = () => {

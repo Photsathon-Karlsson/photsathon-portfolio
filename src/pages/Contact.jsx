@@ -15,7 +15,8 @@ const Contact = () => {
   return (
     <section className="contact" id="contact">
       <h2>{t('contact')}</h2>
-      {<img src={`${import.meta.env.BASE_URL}public/img/contact-me.png`} alt="contact-me" />}
+      {/*<img src={`${import.meta.env.BASE_URL}public/img/contact-me.png`} alt="contact-me" />*/
+      <img src={`${import.meta.env.BASE_URL}img/contact-me.png`} alt="contact-me" />}
 
       <div className="contact-icons">
         <a href="https://www.facebook.com/photsathon.sangsukwaw" target="_blank" rel="noopener noreferrer">

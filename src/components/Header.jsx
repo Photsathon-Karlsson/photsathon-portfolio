@@ -37,7 +37,8 @@ const Header = () => {
     <header className="header">
       <div className="left-section">
         <div className="logo" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-          <img src="public/img/logo.png" alt="Logo" />
+          {/*<img src="public/img/logo.png" alt="Logo" />*/}
+          <img src={`${import.meta.env.BASE_URL}img/logo.png`} alt="Logo" />
           <span>photsathon.com</span>
         </div>
       </div>
