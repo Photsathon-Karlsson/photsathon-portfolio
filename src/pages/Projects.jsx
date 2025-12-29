@@ -11,7 +11,7 @@ const Projects = () => {
       title: 'Chappy-Chat-App',
       description: 'Chappy is a small full-stack chat application developed as an individual school assignment. The project demonstrates my ability to build both the frontend and backend, connect them to a database, and deploy the application online.',
       image: `${import.meta.env.BASE_URL}img/Project-ChappyChatApp.jpg`,
-      link: 'https://github.com/Photsathon-Karlsson/Chappy-Chat-App'
+      link: 'https://chappy-chat-app-fullstack.onrender.com/'
     },
     {
       id: 1,
