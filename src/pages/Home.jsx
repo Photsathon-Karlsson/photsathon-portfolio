@@ -24,7 +24,7 @@ const Home = () => {
           <p>Frontend Developer with experience as a preschool assistant.</p>
           
           <a 
-            href="https://drive.google.com/file/d/1QVCS1I4zH9_IKALlYJIh2exHfW8Nm2iy/view?usp=sharing" 
+            href="https://drive.google.com/file/d/1lWIFbbtBIn91O00kX8GGUVd9GoDTCmmp/view?usp=sharing" 
             className="hire-button" 
             target="_blank" 
             rel="noopener noreferrer"
