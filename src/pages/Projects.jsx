@@ -7,6 +7,13 @@ const Projects = () => {
 
   const projects = [
     {
+      id: 12,
+      title: 'Chappy-Chat-App',
+      description: 'Chappy is a small full-stack chat application developed as an individual school assignment. The project demonstrates my ability to build both the frontend and backend, connect them to a database, and deploy the application online.',
+      image: `${import.meta.env.BASE_URL}img/Project-ChappyChatApp.jpg`,
+      link: 'https://github.com/Photsathon-Karlsson/Chappy-Chat-App'
+    },
+    {
       id: 1,
       title: 'Advanced JavaScript',
       description: 'The individual assignment is to build a webshop that sells summer toys. The app will be published online.',
