@@ -8,28 +8,28 @@ const Home = () => {
   return (
     <div>
       <section className="home-video">
-        <video 
-          className="profile-video" 
-          src="img/welcome.mp4" 
-          autoPlay 
-          loop 
-          muted 
+        <video
+          className="profile-video"
+          src="img/welcome.mp4"
+          autoPlay
+          loop
+          muted
           playsInline
         />
       </section>
 
       <section className="home-content-section">
         <div className="home-content">
-          <h1>Hi, I'm Photsathon</h1>
-          <p>Frontend Developer with experience as a preschool assistant.</p>
-          
-          <a 
-            href="https://drive.google.com/file/d/1lWIFbbtBIn91O00kX8GGUVd9GoDTCmmp/view?usp=sharing" 
-            className="hire-button" 
-            target="_blank" 
+          <h1>{t('homeTitle')}</h1>
+          <p>{t('homeSubtitle')}</p>
+
+          <a
+            href="https://drive.google.com/file/d/1lWIFbbtBIn91O00kX8GGUVd9GoDTCmmp/view?usp=sharing"
+            className="hire-button"
+            target="_blank"
             rel="noopener noreferrer"
           >
-            View my CV
+            {t('contactText')}
           </a>
         </div>
       </section>
@@ -37,6 +37,4 @@ const Home = () => {
   );
 };
 
-
 export default Home;
-
