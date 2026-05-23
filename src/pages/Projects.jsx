@@ -7,6 +7,13 @@ const Projects = () => {
 
   const projects = [
     {
+      id: 13,
+      title: 'FirstStep',
+      description: 'FirstStep is a school onboarding web application developed as a group MVP project to help private schools manage student information, enrollment progress, and onboarding status in one centralized system. [✉️:admin@test.com 🔑: 12345678]',
+      image: `${import.meta.env.BASE_URL}img/Project-FirstStep.jpg`,
+      link: 'https://lnkd.in/gW-ep64e',
+    },
+    {
       id: 12,
       title: 'Chappy-Chat-App',
       description: 'Chappy is a small full-stack chat application developed as an individual school assignment. The project demonstrates my ability to build both the frontend and backend, connect them to a database, and deploy the application online.',
