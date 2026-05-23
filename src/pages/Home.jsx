@@ -24,7 +24,7 @@ const Home = () => {
           <p>{t('homeSubtitle')}</p>
 
           <a
-            href="https://drive.google.com/file/d/1lWIFbbtBIn91O00kX8GGUVd9GoDTCmmp/view?usp=sharing"
+            href="https://drive.google.com/file/d/1Vu5L4lVLwdtUk7dbkjh9oHa-kR2oMWdr/view?usp=drive_link"
             className="hire-button"
             target="_blank"
             rel="noopener noreferrer"
