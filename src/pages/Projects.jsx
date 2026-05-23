@@ -34,7 +34,7 @@ const Projects = () => {
       description: 'Individual design project for Cyber Petz, a company developing high-tech pet tools. I created a website concept featuring at least two fictional products, with views for homepage, product list, cart, and checkout.',
       //image: 'public/img/Project-CyberPetz.jpg',
       image: `${import.meta.env.BASE_URL}img/Project-CyberPetz.jpg`,
-      link: 'https://www.figma.com/proto/ADblgz5lvdBt5axYL9cHav/Inl%C3%A4mningsuppgift-UX---Cyber-Petz?node-id=104-4359&starting-point-node-id=104%3A4359'
+      link: 'https://www.figma.com/proto/h0AOGTG7yqtktfOJev90dt/Inl%C3%A4mningsuppgift-UX---Cyber-Petz?node-id=104-4359&p=f&t=T68YKmFeXj59pKrs-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A167&starting-point-node-id=104%3A4359'
     },
     {
       id: 3,
@@ -82,7 +82,7 @@ const Projects = () => {
       description: 'Group Project - We designed a travel app for public transport users in Gothenburg by following the UX process. Through research, user interviews, and design iterations, we developed personas, wireframes, and mockups to improve the travel experience.',
       //image: 'public/img/Project-TravelApp.jpg',
       image: `${import.meta.env.BASE_URL}img/Project-TravelApp.jpg`,
-      link: 'https://www.figma.com/design/clSaNfammunaLAerbL0prP/Ninja-Kittens?node-id=28-146&p=f&t=GqhhzBVC91o76ga9-0'
+      link: 'https://www.figma.com/design/N1IuVPjwyX29Di64YNI51L/Ninja-Kittens?node-id=28-146&t=Ykz87mX05D4vPpva-1'
     },
     {
       id: 9,
@@ -90,7 +90,7 @@ const Projects = () => {
       description: 'Group project in Agile UX. - design a Figma prototype for the "Book it!" app, which helps users book meetings, find available times, reserve meeting rooms, and chat or share documents. The focus is to practice Scrum, follow the UX process, and build a creative, user-friendly prototype.',
       //image: 'public/img/Project-MeetingApp.jpg',
       image: `${import.meta.env.BASE_URL}img/Project-MeetingApp.jpg`,
-      link: 'https://www.figma.com/design/8KuBzddwnWVALAMK3YWuAl/Fire-Nerds-agila-metoder?node-id=6-4&p=f&t=nyVSQNvfLKi2PdF7-0'
+      link: 'https://www.figma.com/design/809dcjkY3JO4tWzC2AN2ve/Grupparbete-agil-UX?node-id=0-1&t=ZGoTdLfzN49FkR98-1'
     },
     {
       id: 10,
